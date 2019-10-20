@@ -24,9 +24,9 @@
 
     &__image{
         height: 100%;
-        transform: skewX(12deg);
         transform: translateX(-4rem) scale(1.4);
         transition: all .5s;
+        backface-visibility: hidden;
     }
 
     &__text{
